@@ -1,3 +1,3 @@
-document.getElementById("info-bnt").addEventListener("click", () => {
-    alert("JS effect working!");
-});
+document.getElementById("info-btn").onclick = function() {
+    alert("Hello from Nikhitha!");
+};
